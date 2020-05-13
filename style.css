@@ -235,6 +235,19 @@ main::before{
     cursor: pointer;
 }
 
+@media (max-width: 418px){    
+
+    .btn-circle {       
+        height: 120px;
+        width: 120px;        
+    }   
+    
+    .btn-circle .wrapper{       
+        width: 100px;
+        height: 100px;        
+    }
+}
+
 @media (max-width: 500px){
 
     /* body{
