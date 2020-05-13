@@ -41,6 +41,11 @@ header h1{
     text-transform: uppercase;
 }
 
+.result-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
 header .score-container{
     background-color: #fff;
     padding: 20px 40px;
@@ -264,6 +269,7 @@ main::before{
 
     .result-section {
         order: 1;
+        margin: auto;
     }
 
     .result-section h1{
@@ -272,8 +278,9 @@ main::before{
 
     .selection{
         width: 100vw;
+        max-width: 100vw;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         
     }
@@ -283,9 +290,10 @@ main::before{
     }
 
     .selection .btn-circle {
-        transform: scale(1);
-        margin: 12px;
+        transform: scale(1);        
     }
+
+    
 
     .btn-rules {
         transform: scale(0.7);
